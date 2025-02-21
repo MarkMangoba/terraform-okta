@@ -1,0 +1,44 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Exclude the override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local Terraform plan files
+*.tfplan
+
+# .terraform directory, which contains provider plugins and modules
+.terraform/
+
+# Backup files (used by Terraform for backup)
+*.bak
+
+# If you're using module versions in the project
+terraform.lock.hcl
+
+# VSCode settings directory
+.vscode/
+
+# VSCode extensions
+*.code-workspace
+
+# VSCode's local history and temp files
+*.swp
+*.swo
+
+# VSCode workspace configuration files
+.settings/
+
+# Local environment files (e.g., AWS, GCP, or Azure credentials)
+.env
+.csv
+variables.auto.tfvars
+terraform.tfvars
+users.csv
